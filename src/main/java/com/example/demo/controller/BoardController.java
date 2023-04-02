@@ -19,6 +19,7 @@ public class BoardController {
     public String Index(Model model) {
         String text = boardService.getBoard();
         model.addAttribute("text", text);
+
         return "index";
     }
 }

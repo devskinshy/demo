@@ -5,6 +5,6 @@
 
 <mapper namespace="com.example.demo.mapper.BoardMapper">
     <select id="getBoardList" resultType="String">
-        select "test" from dual
+        select "dbTest" from dual
     </select>
 </mapper>

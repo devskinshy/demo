@@ -1,10 +1,9 @@
 package com.example.demo.mapper;
 
-import org.springframework.stereotype.Repository;
+import org.apache.ibatis.annotations.Mapper;
+//import org.springframework.stereotype.Repository;
 
-@Repository
-public class BoardMapper {
-    public String test() {
-        return "test";
-    }
+@Mapper
+public interface BoardMapper {
+    public String getBoardList();
 }

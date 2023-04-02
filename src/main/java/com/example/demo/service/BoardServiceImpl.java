@@ -14,6 +14,6 @@ public class BoardServiceImpl implements BoardService {
     }
 
     public String getBoard() {
-        return boardMapper.test();
+        return boardMapper.getBoardList();
     }
 }
