@@ -7,4 +7,7 @@
     <select id="getBoardList" resultType="com.example.demo.dto.BoardDTO">
         select * from board
     </select>
+    <insert id="createBoard" parameterType="com.example.demo.dto.BoardDTO">
+        insert into board (title, writer, content) values (#{title}, #{writer}, #{content})
+    </insert>
 </mapper>

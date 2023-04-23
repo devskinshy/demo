@@ -6,4 +6,6 @@ import java.util.ArrayList;
 
 public interface BoardService {
     public ArrayList<BoardDTO> getBoard();
+
+    void createBoard(BoardDTO board);
 }

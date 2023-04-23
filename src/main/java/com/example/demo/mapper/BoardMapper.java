@@ -7,5 +7,7 @@ import java.util.ArrayList;
 
 @Mapper
 public interface BoardMapper {
-    public ArrayList<BoardDTO> getBoardList();
+    ArrayList<BoardDTO> getBoardList();
+
+    void createBoard(BoardDTO board);
 }

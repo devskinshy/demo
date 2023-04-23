@@ -14,8 +14,8 @@
             src="https://code.jquery.com/jquery-3.6.4.min.js"
             integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
             crossorigin="anonymous"></script>
-    <script src="<c:url value="/static/board/board.js"/>"></script>
     <link href="<c:url value="/static/reset.css"/>" rel="stylesheet">
+    <script src="<c:url value="/static/board/board.js"/>"></script>
     <link href="<c:url value="/static/board/board.css"/>" rel="stylesheet">
 </head>
 <body>
