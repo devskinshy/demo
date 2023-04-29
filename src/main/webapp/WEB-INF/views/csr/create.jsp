@@ -26,7 +26,7 @@
             <label for="content">내용:</label>
             <textarea id="content" name="content"></textarea><br>
 
-            <input type="button" value="작성" id="submitBtn">
+            <input type="submit" value="작성">
             <input type="reset" value="취소">
         </form>
     </main>
