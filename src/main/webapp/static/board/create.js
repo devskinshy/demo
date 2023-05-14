@@ -1,6 +1,7 @@
 $(function() {
   function successFunction(...data) {
     console.log(data)
+    location.href = 'http://localhost:9090/boards';
   }
 
   function errorFunction(...error) {
@@ -30,7 +31,5 @@ $(function() {
       success: successFunction,
       error: errorFunction
     })
-
-
   })
 })

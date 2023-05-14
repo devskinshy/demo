@@ -31,14 +31,11 @@ public class BoardAPIController {
     }
 
     @PostMapping("/") // post /api/board/
-    public ArrayList<BoardDTO> Create(@RequestBody HashMap test) {
+    public void Create(@RequestBody BoardDTO board) {
 
         System.out.println("test");
-        System.out.println(test);
+        System.out.println(board);
 
-        ArrayList<BoardDTO> boards = boardService.getBoard();
-        System.out.println(boards);
-
-        return boards;
+        boardService.createBoard(board);
     }
 }
